@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Datasets and Checkpoints (>100MB exceeds GitHub limits)
+EMBER2018_TPU_Resume/
+*.npy
+*.pt
+*.npz
+klcn04_models_bundle.joblib
+
+# Frontend dependencies and build
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+Thumbs.db
